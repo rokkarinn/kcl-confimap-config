@@ -4,7 +4,7 @@ test_tenant = lambda {
 }
 
 test_tenant_name_is_lowercase = lambda {
-    t = TenantEnv{environment = 'prod' name = 'blegium'}
+    t = TenantEnv{environment = 'prod' name = 'belgium'}
     assert t.name.islower(), "Tenant name should be all lowercase letters."
 }
 
